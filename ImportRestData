@@ -1,0 +1,22 @@
+##remove variables
+rm(list = ls())
+
+setwd("/Users/stephentucker/Documents/R")
+
+flawless <- read.csv("input/flawless.csv")  # read csv file 
+sessions <- read.csv("input/sessions.csv")  # read csv file 
+rest <- read.csv("input/restaurantsum.csv")  # read csv file 
+supply <- read.csv("input/supply.csv")  # read csv file 
+eater <- read.csv("input/eater.csv")  # read csv file 
+interval <- read.csv("input/interval.csv")  # read csv file 
+
+## kpis
+## unique users total
+## total orders val/vol
+## total unique drivers
+## restaurant C/R
+## client C/R
+
+
+## Restaurant Page
+##
